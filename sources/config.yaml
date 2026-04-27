@@ -1,0 +1,7 @@
+removeOutlineOverlaps: false
+buildVariable: false
+sources:
+- Cousine-Bold.glyphs
+- Cousine-BoldItalic.glyphs
+- Cousine-Italic.glyphs
+- Cousine-Regular.glyphs
