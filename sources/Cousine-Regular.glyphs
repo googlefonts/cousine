@@ -37,7 +37,7 @@ code = "meteg uni0591 uni0596 uni05A3 uni05A4 uni05A5";
 name = class51;
 }
 );
-copyright = "Copyright 2010 Google Inc. All Rights Reserved.";
+copyright = "Copyright 2026 The Cousine Project Authors (https://github.com/googlefonts/cousine)";
 customParameters = (
 {
 name = glyphOrder;
@@ -2498,29 +2498,12 @@ name = licenseURL;
 value = "http://scripts.sil.org/OFL";
 },
 {
-name = vendorID;
-value = GOOG;
-},
-{
 name = trademark;
 value = "Cousine is a trademark of Google Inc.";
 },
 {
-name = versionString;
-value = "Version 1.23";
-},
-{
-name = Axes;
-value = (
-{
-Name = Weight;
-Tag = wght;
-},
-{
-Name = Width;
-Tag = wdth;
-}
-);
+name = vendorID;
+value = GOOG;
 }
 );
 date = "2019-12-03 14:30:13 +0000";
@@ -2531,7 +2514,8 @@ disablesNiceNames = 1;
 familyName = Cousine;
 featurePrefixes = (
 {
-code = "languagesystem hebr dflt;\012";
+automatic = 1;
+code = "languagesystem DFLT dflt;\012\012languagesystem arab dflt;\012\012languagesystem hebr dflt;\012languagesystem hebr IWR;\012";
 name = Languagesystems;
 },
 {
@@ -2656,7 +2640,6 @@ value = 84;
 );
 descender = -386;
 id = "BC15D09A-B757-48E3-911F-803B0089DB3F";
-widthValue = 5;
 xHeight = 1082;
 }
 );
@@ -90452,19 +90435,18 @@ value = {
 };
 },
 {
-name = uniqueID;
-value = "Monotype Imaging - Cousine";
+name = postscriptFontName;
+value = Cousine;
 },
 {
 name = postscriptFullName;
 value = Cousine;
 },
 {
-name = postscriptFontName;
-value = Cousine;
+name = uniqueID;
+value = "Monotype Imaging - Cousine";
 }
 );
-interpolationWidth = 5;
 instanceInterpolations = {
 "BC15D09A-B757-48E3-911F-803B0089DB3F" = 1;
 };
@@ -90475,5 +90457,5 @@ manufacturer = "Monotype Imaging Inc.";
 manufacturerURL = "http://www.google.com/get/noto/";
 unitsPerEm = 2048;
 versionMajor = 1;
-versionMinor = 230;
+versionMinor = 240;
 }

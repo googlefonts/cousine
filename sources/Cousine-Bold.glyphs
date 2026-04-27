@@ -34,7 +34,7 @@ code = "meteg uni0591 uni0596 uni05A3 uni05A4 uni05A5";
 name = class51;
 }
 );
-copyright = "Copyright 2010 Google Inc. All Rights Reserved.";
+copyright = "Copyright 2026 The Cousine Project Authors (https://github.com/googlefonts/cousine)";
 customParameters = (
 {
 name = glyphOrder;
@@ -2503,10 +2503,6 @@ name = vendorID;
 value = GOOG;
 },
 {
-name = versionString;
-value = "Version 1.23";
-},
-{
 name = Axes;
 value = (
 {
@@ -2580,7 +2576,8 @@ code = "";
 name = ChainedContextualGPOS25;
 },
 {
-code = "languagesystem hebr dflt;\012";
+automatic = 1;
+code = "languagesystem DFLT dflt;\012\012languagesystem arab dflt;\012\012languagesystem hebr dflt;\012languagesystem hebr IWR;\012";
 name = Languagesystems;
 }
 );
@@ -134003,5 +134000,5 @@ manufacturer = "Monotype Imaging Inc.";
 manufacturerURL = "http://www.google.com/get/noto/";
 unitsPerEm = 2048;
 versionMajor = 1;
-versionMinor = 230;
+versionMinor = 240;
 }
