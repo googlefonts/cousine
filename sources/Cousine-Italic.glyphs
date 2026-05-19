@@ -2609,17 +2609,17 @@ alignmentZones = (
 "{0, -21}",
 "{-386, -39}"
 );
-ascender = 1255;
+ascender = 1705;
 capHeight = 1349;
 custom = Italic;
 customParameters = (
 {
 name = typoAscender;
-value = 1255;
+value = 1705;
 },
 {
 name = typoDescender;
-value = -386;
+value = -615;
 },
 {
 name = typoLineGap;
@@ -2658,7 +2658,7 @@ name = underlineThickness;
 value = 84;
 }
 );
-descender = -386;
+descender = -615;
 id = "90A2DC70-B0EC-4941-B875-3E2B1B2F3578";
 italicAngle = 12;
 widthValue = 5;
