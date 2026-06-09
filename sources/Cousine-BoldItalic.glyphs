@@ -2610,11 +2610,11 @@ capHeight = 1349;
 customParameters = (
 {
 name = typoAscender;
-value = 1297;
+value = 1705;
 },
 {
 name = typoDescender;
-value = -428;
+value = -615;
 },
 {
 name = typoLineGap;
